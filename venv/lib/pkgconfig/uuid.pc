@@ -1,0 +1,11 @@
+prefix=/home/iridium/Vikash/mlproject/venv
+exec_prefix=/home/iridium/Vikash/mlproject/venv
+libdir=/home/iridium/Vikash/mlproject/venv/lib
+includedir=/home/iridium/Vikash/mlproject/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
